@@ -84,8 +84,6 @@ public class metaSort{
     }
     double[] temp = Arrays.copyOf(test, test.length);
 
-    avgFitness[i] = population.averageFitness();
-
     population = demo.selection(population, test, temperature);
     System.out.println("next generation " + i);
     
