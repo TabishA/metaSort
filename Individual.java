@@ -5,6 +5,10 @@ package metasort;
 import java.util.*;
 import java.io.*;
 
+//Each individual is represented as a linked list of swap operations
+//with each node containing the indices of elements to be swapped
+//The structure provides methods to add a swap to the end of the list
+//or to push a swap to the beginning of the list, depending on the desired application
 
 public class Individual{
 
